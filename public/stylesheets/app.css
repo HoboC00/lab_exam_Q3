@@ -1,0 +1,24 @@
+#image{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-size: 15px;
+}
+
+.text{
+    text-align: right;
+    display:  inline-block;
+}
+
+.img-thumbnail{
+    padding: 0;
+}
+
+.img-thumbnail .caption-full{
+    padding: 9px;
+}
+#delete-form{
+    display: inline-block;
+}

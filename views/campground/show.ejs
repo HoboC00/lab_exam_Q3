@@ -1,0 +1,32 @@
+<% include ../partials/header%>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <p class="lead">students notice board</p>
+        </div>
+            <div class="col-md-12" >
+                <div class="card text-center card card-body flex-fill my-3">
+                    <!-- <img class="card-img-top" src=""> -->
+                    <div class="card-body">
+                        <h4 class="card-title"><%= campground.title%></h4>
+                        <p ><%= campground.depart%></h4>
+                        <h3 class="card-title"><%= campground.desc%></h4>
+                        <h3 class="card-title"><%= campground.date%></h4>
+                    </div>
+                    <p>
+                        <a href="/campgrounds/<%= campground._id%>" class="btn btn-primary">More Info</a>
+                    </p>
+                </div>    
+            </div>
+    </div>
+</div>
+
+<h1></h1>
+
+
+
+<p>
+</p>
+
+
+<% include ../partials/footer%>
